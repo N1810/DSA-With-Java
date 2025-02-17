@@ -7,9 +7,13 @@ class ArraysExapmle {
 
 		int[][] arr = { { 3, 4, 5 }, { 12, 34, 56 } };
 
-		System.out.println(arr[0][0]);
-		System.out.println(arr[0][1]);
-		System.out.println(arr[1][0]);
+//		System.out.println(arr[0][0]);
+//		System.out.println(arr[0][1]);
+//		System.out.println(arr[1][0]);
+		
+		for(int i=0; i<6; i++) {
+			System.out.println(arr);
+		}
 	}
 
 	void demoArray() {
@@ -25,28 +29,51 @@ class ArraysExapmle {
 		
 		//Assigning a 3D Array
 		
-		arr_3[0][0][0] =1;
-
-		ages[0] = 1;
-		ages[1] = 2;
-		ages[3] = 5;
+//		arr_3[0][0][0] =1;
+//
+//		ages[0] = 1;
+//		ages[1] = 2;
+//		ages[3] = 5;
 //		ages[10]=3;     it will Give Index Out of Bound Error
-		System.out.println(ages[0]);
-		System.out.println(ages[1]);
-		System.out.println(ages[2]);
+//		System.out.println(ages[0]);
+//		System.out.println(ages[1]);
+//		System.out.println(ages[2]);
+//
+//		System.out.println(names[0]);
+//		System.out.println(names[1]);
+//		System.out.println(names[2]);
+//		
+//		System.out.println("3D Array:- " +arr_3[0][0][0]);
+//		
+//		
+//		System.out.println("The Length of 3D Array is " + arr_3.length);
+//		
+//		System.out.println("The Length of ages is :- "+ ages.length);
+//		
+//		System.out.println("The Length of names is :- "+ names.length);
 
-		System.out.println(names[0]);
-		System.out.println(names[1]);
-		System.out.println(names[2]);
 		
-		System.out.println("3D Array:- " +arr_3[0][0][0]);
+	/* 
+	 *  Traversing through the Array
+	 *  
+	 *  we can use loop to traverse through the array. There are Many ways to iterate over the array. The Most Common Ways of Looping through arrays in Java Are 
+	 *  1. For Loop 
+	 *  2. For each Loop
+	 *  3. While Loop
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * */
+		for (int i = 0; i < ages.length; i++) {
+		    System.out.println(ages[i]);
+		}
+
 		
-		
-		System.out.println("The Length of 3D Array is " + arr_3.length);
-		
-		System.out.println("The Length of ages is :- "+ ages.length);
-		
-		System.out.println("The Length of names is :- "+ names.length);
+					
 	}
 	
 }
